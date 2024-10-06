@@ -3,6 +3,7 @@ package com.java.Flipkart.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+//Just Model Class
 @Document(collection = "flipkart")
 public class Flipkart {
     @Id
